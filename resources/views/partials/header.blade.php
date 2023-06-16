@@ -6,8 +6,8 @@
         <nav>
             <ul>
                 <li>
-                    <a>CHARACTERS</a>
-                    <a>COMICS</a>
+                    <a href="{{route('home')}}">HOME</a>
+                    <a href="{{route('comics')}}">COMICS</a>
                     <a>MOVIES</a>
                     <a>TV SERIES</a>
                     <a>GAMES</a>

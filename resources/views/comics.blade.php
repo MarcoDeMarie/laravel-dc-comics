@@ -5,9 +5,9 @@
     <div class="jumbotron"></div>
     <div class="container">
         <div class="series">
-            <h1>CURRENT SERIES</h1>
+            <h1>CURRENT COMICS</h1>
             <div class="wrapper">
-                <h2>COOMING SOON...</h2>
+                {{-- fumetti --}}
             </div>
             <div class="container button"><button>LOAD MORE</button></div>
 
