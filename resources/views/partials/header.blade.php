@@ -7,9 +7,9 @@
             <ul>
                 <li>
                     <a href="{{route('home')}}">HOME</a>
-                    <a href="{{route('comics')}}">COMICS</a>
+                    <a href="{{route('comics.index')}}">COMICS</a>
                     <a>MOVIES</a>
-                    <a>TV SERIES</a>
+                    <a >TV SERIES</a>
                     <a>GAMES</a>
                     <a>COLLECTIBLES</a>
                     <a>VIDEOS</a>

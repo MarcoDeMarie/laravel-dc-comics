@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
-use App\Http\Controllers\ComicsController;
+use App\Http\Controllers\ComicController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,8 +15,8 @@ use App\Http\Controllers\ComicsController;
 */
 
 Route::get('/', [PageController::class, 'index'])->name('home');
-Route::get('/comics', [PageController::class, 'comics'])->name('comics');
 
 
-Route::resource('comics', ComicsController::class);
+
+Route::resource('comics', ComicController::class);
 
